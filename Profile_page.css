@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* border: 1px solid red */
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:black;
+    color:aliceblue;
+    padding:20px;  
+}
+.nav-links{
+    width:400px;
+    justify-content: space-evenly;
+    display:flex;
+    list-style-type:none;  
+    align-items:center; 
+    
+}
+.nav-links a{
+    color:white;
+    text-decoration: none;
+}
+/* mainpage starts from here */
+.body-box{
+    width:900px;
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.container1{
+    flex:2;
+    margin-right:20px;
+}
+.box1, .box2, .box3, .box4{
+    border: 2px solid gray;
+    border-radius: 2px;
+}
+.box2, .box4{
+    margin-top:30px;
+}
+.top-space1{
+    width:100%;
+    Height:250px;
+    background-color: #14a2b8;
+    height: 80px;
+}
+#profile-pic{
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-top:35px;
+    margin-left:20px;
+}
+.inner-space1{
+    margin:40px 20px 20px;
+}
+.inner-space1 h3, p, img{
+    margin-top: 10px;
+}
+.top-space2, .top-space3, .top-space4{
+    color:white;
+    padding:10px 10px 10px 15px;
+    background-color:rgb(48, 47, 47);
+}
+.inside2{
+    margin:15px;
+}
+.container2{
+    flex:1;
+}
+.box3 .one, .two{
+    display:flex;
+    align-items: center;
+    margin:15px;
+    justify-content: space-between;
+}
+.box3row{
+    display:flex;
+    align-items: center;
+    width:110px;
+    justify-content: space-between;
+}
+.box3 Img, .box4 img{
+    border-radius: 50%;
+}
+.top-space3{
+    display:flex;
+    align-items: center;
+}
+.top-space3 img{
+    border-radius: 50%;
+    margin:5px;
+}
+.top-space4{
+    display:flex;
+    background-color:rgb(48, 47, 47)
+}
+.box4 .row{
+    display:flex;
+    padding:15px;
+}
+.row .icon{
+    width:40px;
+}
+.row .names h3{
+    margin:18px;
+}
+
+.number-icon{
+    height:25px;
+    width:50px;
+    display:flex;
+    align-items:center;
+    padding:10px;
+    box-sizing: border-box;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right:10px;
+}
+.bottombox{
+    height:25px;
+    border-top: 2px solid gray;
+    padding:15px;
+}
+button{
+    color:white;
+    border:none;
+    background-color:#14a2b8; 
+    padding:5px 15px;
+}
